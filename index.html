@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio  Website </title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png " class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark"   onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Vipin</span> Maurya <br> From U.P India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------about---------------------------------------------->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/vipin1.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1  class="sub-title">About Me</h1>
+                <p>
+                        Hi, I’m <b>Vipin Kumar Maurya</b>, a passionate and motivated <b>Full Stack Java Developer</b>  with hands-on experience in building web applications using  Java, Spring Boot, React, MySQL, and MongoDB. <br>
+I enjoy solving problems, designing clean user interfaces, and creating efficient backend solutions.  <br>
+
+I have successfully completed <b>Full Stack Java Development</b> training from Simplilearn, 
+where I worked on live projects such as a <b>Travel Booking System</b>.  
+Along with my technical skills, I bring strong problem-solving abilities, 
+quick learning capability, and a continuous desire to grow in the tech field.  <br>
+
+Currently, I am seeking opportunities in <b>Full Stack / Backend / Frontend Development</b> 
+where I can contribute my skills, collaborate with teams, and build impactful software solutions.
+</p>
+                <div class="tab-titles">
+                    <p class="tab-links  active-link"  onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experiance</p>
+                    <p class="tab-links"   onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab"  id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing clean and user-friendly interfaces</li>
+                     
+                      <li><span>Frontend</span><br>HTML, CSS, JavaScript, React - Responsive & interactive web apps</li>
+  
+                      <li><span>Backend</span><br>Java, Spring Boot, REST APIs - Scalable server-side applications</li>
+  
+                      <li><span>Database</span><br>MySQL, MongoDB - Efficient data storage & management</li>
+  
+                    <li><span>Version Control</span><br>Git & GitHub - Code collaboration and version tracking</li>
+  
+                    <li><span>Problem Solving</span><br>Data Structures & Algorithms, Debugging, OOPs Concepts</li>
+                            </ul>
+                </div>
+                <div class="tab-contents"  id="experience">
+                
+                    <ul>
+                    <li>
+                     <span>Simplilearn (Jan 2024 - Nov 2024)</span><br>
+         Full Stack Java Developer Training - Completed intensive training in Java, Spring Boot, React, MySQL, and live projects.
+                </li>
+  
+  <li>
+    <span>BSMJ Nidhi Ltd. (Apr 2022 - Mar 2023)</span><br>
+    Field Executive - Worked in operations, client handling, and document verification to support financial services.
+  </li>
+  
+  <li>
+    <span>Jetking (May 2019 - Mar 2020)</span><br>
+    Student - Enrolled in Master in Network Administration Course (Karol Bagh & Varanasi).
+  </li>
+  
+  <li>
+    <span>Career Break (Mar 2020 - Apr 2022)</span><br>
+    Focused on competitive exam preparation and self-learning in programming & computer fundamentals.
+  </li>
+                </ul>   
+
+                </div>
+                <div class="tab-contents"  id="education">
+                   
+                    <ul>
+                    <li>
+                <span>B.Tech in Information Technology</span><br>
+                    V. B. S. Purvanchal University, Jaunpur (2018) - 61%
+                    </li>
+  
+                    <li>
+                 <span>Intermediate (Class 12th) - U.P. Board</span><br>
+                 M. H. Inter College, Jaunpur (2014) - 65%
+                    </li>
+  
+                     <li>
+                 <span>High School (Class 10th) - U.P. Board</span><br>
+                     M. H. Inter College, Jaunpur (2012) - 76%
+                    </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------services-section-------------------------------------->
+
+<div id="services">
+    <div class="container">
+           <h1  class="sub-title">My Services</h1>
+           <div class="services-list">
+            <div>
+  <i class="fa-solid fa-code"></i>
+                <h2>WEb Designing</h2>
+                <p>Web Designing is the art and science of creating websites that are not only visually appealing but also functional and user-friendly. It involves planning, designing layouts, selecting color schemes, and structuring content in a way that provides the best experience to users. A good web design focuses on both creativity and usability, ensuring that the website looks modern while being responsive across different devices. With technologies like HTML, CSS, JavaScript, and React, web designing transforms ideas into digital experiences that connect users with brands and businesses.</p>
+                <a href="#">Leran more</a>
+            </div>
+              <div>
+<i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designing</h2>
+                <p>UI/UX Design is the process of creating intuitive, engaging, and user-friendly digital experiences. UI (User Interface) focuses on the look and feel of a product—colors, layouts, buttons, and overall design—while UX (User Experience) ensures smooth navigation, usability, and satisfaction for users. Together, UI/UX aims to make digital products both beautiful and easy to use.</p>
+                <a href="#">Leran more</a>
+            </div>
+              <div>
+             <i class="fa-brands fa-app-store"></i>
+                <h2>App Designing</h2>
+                <p>App Designing is the process of creating mobile and desktop applications with a focus on visual appeal, usability, and performance. It combines UI (User Interface) design for attractive layouts with UX (User Experience) design to ensure smooth navigation, responsive interactions, and user satisfaction. A well-designed app is not just functional but also delivers a seamless and enjoyable experience across devices.</p>
+                <a href="#">Leran more</a>
+            </div>
+           </div>
+    </div>
+</div>
+
+<!------------------------------------portfolio------------------------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+            <h1  class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>A social media app is a platform that allows people to connect, communicate, and share content (text, images, videos, links, etc.) with others online. It usually includes features like profiles, posts, likes, comments, and messaging.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                   <div class="work">
+                    <img src="images/work-2.png" >
+                      <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app is a mobile or web application that allows users to stream, download, or organize music. It connects users to a large library of songs, playlists, and podcasts, often with features like recommendations, offline listening, and social sharing.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                   <div class="work">
+                    <img src="images/work-3.png" >
+                      <div class="layer">
+                        <h3>Online Shooping App</h3>
+                        <p>An online shopping app is a mobile or web-based platform where users can browse, search, and purchase products digitally. It connects sellers and buyers through a secure and user-friendly interface, often with features like product recommendations, payment gateways, and delivery tracking.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- -------------------------------------contact---------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contant-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-share"></i>vipin214313@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7905483755</p>
+                 <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                       <a href=""><i class="fa-brands fa-twitter"></i></a>
+                          <a href=""><i class="fa-brands fa-instagram"></i></a>
+                             <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>  
+              <div class="contant-right">
+             <form  name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Enter The Your Name" required>
+                <input type="email" name="email" placeholder="Enter The Your Email" required>
+                <textarea name="message" rows="6" id="" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg"></span>
+             </div>
+         
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyrigtht  0 vipin. made  <i class="fa-solid fa-heart"></i> by vipin maurya</p>
+    </div>
+</div>
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+<script>
+    var sidemeu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+     function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby7drJr3O8VLujWYTfzskB0LdTEqfPngd5DberpKovGfKZ0sGMlBjsUpbh8fkbhzbwXPw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message send Succesfully..."
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
